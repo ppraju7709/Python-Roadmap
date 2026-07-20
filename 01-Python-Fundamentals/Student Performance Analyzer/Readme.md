@@ -124,7 +124,7 @@ Student records are stored in **student.json**.
 ![Add Student](screenshots/add_student.png)
 
 ### 📋 View All Students
-![View Students](screenshots/view_students.png)
+![View Students](screenshots/view_all_students.png)
 
 ### 🔍 Search Student
 ![Search Student](screenshots/search_student.png)
@@ -133,10 +133,10 @@ Student records are stored in **student.json**.
 ![View Grades](screenshots/view_grades.png)
 
 ### 📈 Analyze Performance
-![Analyze Performance](screenshots/analyze_performance.png)
+![Analyze Performance](screenshots/analyse_performance.png)
 
 ### 🏆 Show Topper
-![Topper](screenshots/topper.png)
+![Topper](screenshots/show_topper.png)
 
 ---
 

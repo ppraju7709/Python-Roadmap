@@ -1,44 +1,51 @@
-# 📊 Smart Performance Analyzer
+# 📊 Student Performance Analyzer
 
-A Python console-based application that helps manage student records and analyze their academic performance. The system allows users to add, update, delete, search, and view student records while automatically calculating averages, grades, and performance.
+A Python console-based application to manage student records and analyze their academic performance. The application allows users to add, search, update, delete, and analyze student data while storing records permanently using JSON file handling.
 
 ---
 
 ## 🚀 Features
 
-- ➕ Add Student Record
+- ➕ Add Student
 - 📋 View All Students
 - 🔍 Search Student by ID
-- ✏️ Update Student Details
+- ✏️ Update Student Information
+- 🎓 View Student Grades
 - ❌ Delete Student Record
-- 📈 Calculate Average Marks
-- 🎓 Assign Grades Automatically
-- 🏆 Find Topper
-- 📊 Rank Students
-- 💾 Save Records using JSON File
-- 📂 Load Saved Records Automatically
+- 📈 Analyze Student Performance
+- 🏆 Show Topper
+- 💾 Save Student Records (JSON)
+- 📂 Load Saved Records
 
 ---
 
 ## 🛠️ Technologies Used
 
 - Python 3
-- JSON (File Handling)
+- JSON File Handling
 
 ---
 
 ## 📂 Project Structure
 
 ```
-Smart-Performance-Analyzer/
-│── Student_Performance_Analyzer.py
-│── students.json
-│── README.md
+Student-Performance-Analyzer/
+│
+├── Student_Performance_Analyzer.py
+├── student.json
+├── README.md
+└── screenshots/
+    ├── menu.png
+    ├── add_student.png
+    ├── view_students.png
+    ├── search_student.png
+    ├── analyze_performance.png
+    └── topper.png
 ```
 
 ---
 
-## 📚 Concepts Used
+## 📚 Python Concepts Used
 
 - Variables
 - Input & Output
@@ -47,49 +54,89 @@ Smart-Performance-Analyzer/
 - Functions
 - Lists
 - Dictionaries
-- Nested Data Structures
-- File Handling (JSON)
+- JSON File Handling
 - Exception Handling
+- CRUD Operations
 
 ---
 
-## 📋 Menu
+## 📋 Menu Options
 
 ```
-===== SMART PERFORMANCE ANALYZER =====
-
 1. Add Student
 2. View All Students
 3. Search Student
 4. Update Student
-5. Delete Student
-6. Assign Grade
-7. Save Data
-8. Load Data
-9. Exit
+5. View Grades
+6. Delete Student
+7. Analyze Performance
+8. Show Topper
+9. Save Data
+10. Load Data
+11. Exit
 ```
 
 ---
 
 ## 🎯 Grade Criteria
 
-| Average | Grade |
-|---------|-------|
-| 90 - 100 | A+ |
-| 80 - 89 | A |
-| 70 - 79 | B |
-| 60 - 69 | C |
-| Below 60 | Fail |
+| Average Marks | Grade |
+|--------------|-------|
+| 90 – 100 | A |
+| 80 – 89 | B |
+| 70 – 79 | C |
+| 60 – 69 | D |
+| 50 – 59 | E |
+| 40 – 49 | Pass |
+| Below 40 | Fail |
+
+---
+
+## 📊 Performance Analysis
+
+The application provides:
+
+- Average Marks
+- Grade
+- Strongest Subject
+- Weakest Subject
+- Attendance Status
+- Assignment Status
 
 ---
 
 ## 💾 File Handling
 
-The project stores all student records in a **students.json** file.
+Student records are stored in **student.json**.
 
 - Save records permanently
-- Load records when the program starts
-- Data is not lost after closing the application
+- Load records automatically
+- Prevent data loss after closing the program
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Main Menu
+![Menu](screenshots/menu.png)
+
+### ➕ Add Student
+![Add Student](screenshots/add_student.png)
+
+### 📋 View All Students
+![View Students](screenshots/view_students.png)
+
+### 🔍 Search Student
+![Search Student](screenshots/search_student.png)
+
+### 🎓 View Grades
+![View Grades](screenshots/view_grades.png)
+
+### 📈 Analyze Performance
+![Analyze Performance](screenshots/analyze_performance.png)
+
+### 🏆 Show Topper
+![Topper](screenshots/topper.png)
 
 ---
 
@@ -98,12 +145,16 @@ The project stores all student records in a **students.json** file.
 1. Clone the repository
 
 ```bash
-git clone <repository-link>
+git clone https://github.com/ppraju7709/Python-Roadmap/01-Python-Fundamentals/Student-Performance-Analyzer.git
 ```
 
 2. Open the project folder
 
-3. Run the program
+```bash
+cd Student-Performance-Analyzer
+```
+
+3. Run the application
 
 ```bash
 python Student_Performance_Analyzer.py
@@ -111,36 +162,25 @@ python Student_Performance_Analyzer.py
 
 ---
 
-## 📸 Sample Output
-
-```
------------------------------------------
-ID   Name             Average    Grade
------------------------------------------
-1    Prajakta         85.67      A
-2    Rahul            78.00      B
------------------------------------------
-```
-
----
-
 ## 🌱 Future Improvements
 
-- Tkinter GUI
-- Student Report Cards
-- Export to Excel
+- GUI using Tkinter
+- Export reports to Excel
+- Generate PDF Report Cards
 - Data Visualization using Matplotlib
 - Database Integration (MySQL)
-- Flask Web Version
+- Flask Web Application
+- Student Login System
 
 ---
 
 ## 👩‍💻 Author
 
 **Prajakta Patil**
-
 Computer Science Engineering Student
 
 ---
 
-⭐ If you found this project helpful, consider giving it a star on GitHub!
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub!

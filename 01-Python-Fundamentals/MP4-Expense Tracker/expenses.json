@@ -1,0 +1,44 @@
+[
+     {
+          "Category": "food",
+          "Amount": 40.0,
+          "Description": "manchurian",
+          "Date": "31-07-2026 22:38"
+     },
+     {
+          "Category": "food",
+          "Amount": 25.0,
+          "Description": "panipuri",
+          "Date": "31-07-2026 22:38"
+     },
+     {
+          "Category": "travel",
+          "Amount": 40.0,
+          "Description": "bus",
+          "Date": "31-07-2026 22:39"
+     },
+     {
+          "Category": "travel",
+          "Amount": 20.0,
+          "Description": "rickshaw",
+          "Date": "31-07-2026 22:39"
+     },
+     {
+          "Category": "travel",
+          "Amount": 20.0,
+          "Description": "rickshaw",
+          "Date": "31-07-2026 22:39"
+     },
+     {
+          "Category": "travel",
+          "Amount": 20.0,
+          "Description": "bus",
+          "Date": "31-07-2026 22:39"
+     },
+     {
+          "Category": "stationary",
+          "Amount": 12.0,
+          "Description": "xerox",
+          "Date": "31-07-2026 22:40"
+     }
+]

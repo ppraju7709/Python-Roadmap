@@ -78,7 +78,7 @@ cd Expense-Tracker
 ### 3. Run the Program
 
 ```bash
-python expense_tracker.py
+python Expense_Tracker.py
 ```
 
 ---
